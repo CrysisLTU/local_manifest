@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <manifest>
+
+     <!-- Device Folders, Kernel & Proprietary BLOBS -->
+     <project path="vendor/huawei/u8800pro" name="CrysisLTU/cm11_vendor_u8800pro" remote="github" revision="master"/>
+     <project path="kernel/huawei/u8800pro" name="CrysisLTU/Project-X5pro-Kernel-u8800pro" remote="github" revision="master"/>
+     <project path="device/huawei/u8800pro" name="CrysisLTU/cm11_device_u8800pro" remote="github" revision="master"/>
+
+     <!-- WIFI -->
+     <project path="hardware/atheros/wifi/libs" name="CyanogenModu8800pro/android_hardware_atheros_wifi_libs" remote="github" revision="cm-11.0" />
+
+     <!-- QCOM Hardware -->
+     <project name="Team-Hydra/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="kitkat-staging" />
+     <project name="Team-Hydra/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="kitkat-staging" />
+
+     <!-- Webkit -->
+     <project path="external/webkit" name="Dazzozo/android_external_webkit" remote="github" revision="kitkat"/>
+     
+</manifest>
